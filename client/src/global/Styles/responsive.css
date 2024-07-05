@@ -1,0 +1,554 @@
+@media screen and (max-width: 1200px) {
+    .dashboard .layout .main .tab-panel .tab-pane .cards-wrapper .card .description {
+        padding: 20px 10px;
+    }
+    /* .dashboard .layout .main .tab-panel .tab-pane .cards {
+        flex-wrap: wrap;
+    } */
+}
+
+@media screen and (max-width: 1180px) {
+    .site-header .logo a {
+        font-size: 23px;
+    }
+    .site-header .navigation {
+        gap: 15px;
+    }
+    .site-header .navigation a {
+        font-weight: 400 !important;
+    }
+
+    .site-header .container .search .search-bar input {
+        width: 70% !important;
+    }
+    .banner .banner-content h1::after {
+        display: none;
+    }
+    .cards-wrapper {
+        grid-gap: 15px;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .cards {
+        gap: 16px;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .cards .card {
+        padding: 30px 26px;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .cards .card .d-flex h5 {
+        font-size: 20px;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .cards-wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cards-wrapper .card {
+        margin-bottom: 18px;
+    }
+
+    .dashboard .layout .main .tab-panel .tab-pane .cards-wrapper .card .description {
+        padding: 12px 18px;
+    }    
+    .cards-wrapper .card .description .others {
+        flex-direction: column;
+    }
+
+    .details .product-details {
+        gap: 25px;
+    }
+    .quantity {
+        max-width: 120px;
+    }
+    .quantity .action-btn {
+        padding: 4px 10px !important;
+    }
+    .quantity span {
+        font-size: 18px;
+        padding: 0 8px;        
+    }
+    .details .product-details .right .buttons .btn-primary {
+        padding: 9px 37px;
+    }
+    .details .product-details .right .buttons .btn-save {
+        padding: 8px 11px;
+    }
+    .details .product-details .left .swiper-gallery {
+        margin-right: 20px;        
+    }   
+    .details .product-details .left .thumbs-swiper {
+        width: 420px !important;
+    }
+    .my-modal {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .site-header .logo a {
+        font-size: 19px;
+    }
+
+    .site-header .navigation {
+        gap: 10px;
+    }
+
+    .site-header .container .search .search-bar input {
+        max-width: 120px !important;
+    }
+
+    .cards-wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .cards-wrapper .card .description {
+        gap: 0;
+    }
+    .my-modal {
+        max-width: 940px;
+    }    
+    .my-modal .details .product-details {
+        gap: 20px;
+    }
+    .my-modal .details .product-details .left .images .vertical {
+        height: 350px;
+    }
+    .my-modal .details .product-details .left .images .vertical .image-holder {
+        height: 90px !important;
+        width: 95px !important;
+    }
+    .my-modal .details .product-details .left .images .thumbnail {
+        height: 350px;
+    }
+    .my-modal .details .product-details .left .images {
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        padding: 0 50px !important;
+    }
+    .side-bar.open {
+        width: 370px;
+    }
+    .side-bar-empty img {
+        width: 90px;
+    }
+    .side-bar-empty h4 {
+        margin-top: 20px !important;
+    }
+    .site-header .container .buttons .menu-icon {
+        display: block;
+    }    
+    .site-header .navigation {
+        display: none !important;
+    }
+
+    .site-header .search-bar {
+        display: none !important;
+    }
+    .site-header .buttons .icon, .profile-icon {
+        display: none;
+    }
+    .cards-wrapper .card .image-holder {
+        height: 180px;
+    }
+
+    .cards-wrapper .card:hover .image-holder .addToCart {
+        padding: 8px 0;
+    }
+
+    .cards-wrapper .card .description {
+        padding: 5px 10px;
+    }
+
+    .cards-wrapper .card .description h5 {
+        font-size: 17px;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .graphs {
+        grid-template-columns: 2fr 1fr;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .cards .card {
+        padding: 20px 25px;
+    }
+    .dashboard .layout .menu {
+        display: none;
+        position: absolute;
+        z-index: 9999;
+        padding: 30px 0;
+    }
+    .dashboard .layout .menu .head {
+        font-size: 18px;
+        display: flex;
+        gap: 20px !important;
+    }
+    .dashboard .layout .menu .cross-icon {
+        display: block;
+    }
+    .dashboard .layout .menu .head .cross-icon img {
+        width: 20px;
+    }
+    .dashboard .layout .menu .head img {
+        width: 50px;
+    }    
+    .dashboard .layout .menu .navigation {
+        padding: 30px 0px 30px 40px;
+    } 
+    .dashboard .layout .menu .navigation li {
+        width: 100%;
+    }
+    .dashboard .layout .main header .menu-icon {
+        display: block !important;
+    }
+    .dashboard .layout .main .tab-panel {
+        padding: 40px;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .cards-wrapper .card-2 .description .buttons {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .cards-wrapper .card-2 .description .buttons .btn-underline {
+        width: 100%;
+    }
+    .categories .container .nav-tabs .category-link {
+        width: 170px;
+        padding: 20px;
+    }
+    .categories .container .slider-navigation-buttons .navigate {
+        height: 45px;
+        width: 45px;
+        border-radius: 45px !important;
+    }
+    .our-services .container .d-flex {
+        justify-content: center;
+    }
+    .our-services .container .d-flex .item {
+        margin-bottom: 25px;
+    }
+    .products .container .d-flex {
+        flex-direction: column;
+    }
+    .registration .right {
+        padding: 0 40px;
+    }
+    .check-out .container .d-grid {
+        gap: 40px;
+    }
+    .check-out .container .d-grid .order-details {
+        padding: 0 35px;
+    }
+    .details .product-details {
+        padding: 0 ;
+    }
+    .details .product-details .left .thumbnail {
+        height: 340px;
+    }
+    .details .product-details .left .swiper-gallery {
+        height: 340px;
+        width: 400px !important;
+        margin-right: 10px;
+    }
+    .details .product-details .left .swiper-gallery .small {
+        width: 70px;
+        height: 72px;
+    }
+    .details .product-details .left .thumbs-swiper {
+        max-width: 380px;
+    }
+    .details .product-details .right .options {
+        display: none;
+    }
+    .my-modal {
+        max-width: 780px;
+    }
+    .my-modal .details .product-details .left .images {
+        grid-template-columns: 1fr 3fr;
+    }
+    .my-modal .details .product-details {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .side-bar.open {
+        width: 350px;
+    }
+    .side-bar .items .side-bar-card .image-holder {
+        height: 78px;
+    }
+    .side-bar .items .side-bar-card .description h4 {
+        font-size: 14px;        
+    }
+    .side-bar .items .side-bar-card .description p {
+        font-size: 13px;
+    }
+    .side-bar .items .side-bar-card .description .buttons-group .btn {
+        font-size: 13px !important;
+    }    
+    .section-heading h4 {
+        font-size: 16px !important;
+    }
+    .section-heading h3 {
+        font-size: 20px !important;
+    }
+    .section-heading2 {
+        font-size: 23px;
+    }
+    .banner .banner-image img {
+        height: 500px;
+    }
+    .banner .banner-content h1 {
+        font-size: 30px;
+        margin-bottom: 26px;
+    }
+    .banner .banner-content h3 {
+        font-size: 23px;
+        margin-bottom: 42px;
+    }
+    .dashboard .layout .menu {
+        max-width: 240px;
+    }    
+    .dashboard .layout .menu .navigation {
+        padding: 20px 0px 20px 25px;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .graphs {
+        grid-template-columns: 1fr;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .graphs .pie-chart, .bar-chart {
+        display: flex;
+        justify-content: center;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .cards .card {
+        max-width: 100%;
+    }
+    .dashboard .layout .main .tab-panel {
+        padding: 25px;
+    }
+    .cards-wrapper {
+        grid-template-columns: 1fr 1fr !important;
+    }
+    .cards-wrapper .card .image-holder .image-overlay .fav-btn {
+        width: 35px;
+        height: 35px;
+    }
+    .cards-wrapper .card .description {
+        padding: 18px 15px;
+    }
+    .cards-wrapper .card .description .others {
+        flex-direction: row;
+    }
+    .categories .container .nav-tabs .category-link {
+        width: 130px;
+        padding: 15px;
+    }
+    .categories .container .nav-tabs .category-link .icon-holder {
+        height: 30px;        
+    }
+    .registration {
+        grid-template-columns: 1fr;
+    }
+    .registration .left {
+        display: none;
+    }
+    .registration .right {
+        padding: 0 50px;
+    }
+    .registration .right .heading h4 {
+        font-size: 28px;
+    }
+    .cart-footer .btn {
+        padding: 10px 28px;
+        font-weight: 500;
+        font-size: 13px !important;
+    }
+    .cart-page .container .remove {
+        font-size: 15px !important;
+    }
+    .cart-page .container .order-summary {
+        width: 100%;        
+    }
+    .footer .container .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer .container .grid .links {
+        margin-bottom: 20px;
+    }
+    .check-out .container .d-grid {
+        grid-template-columns: 1fr;
+    }
+    .check-out .container .d-grid .billing-details {
+        margin-bottom: 40px;
+    }
+    .details .product-details {
+        grid-template-columns: 1fr;
+    }
+    .details .product-details .left {
+        margin-bottom: 40px;
+    }    
+    .details .product-details .left .thumbs-swiper {
+        display: block;
+        margin: auto;
+    }
+    .details .product-details .left .swiper-gallery {
+        height: 100%;
+        width: 100% !important;
+        margin-bottom: 40px;
+    }
+    .my-modal .details {
+        padding-top: 20px;
+    }
+    .my-modal .details .product-details {
+        gap: 20px;
+    }    
+}
+
+@media screen and (max-width: 668px) {    
+    .cards-wrapper .card .description {
+        padding: 10px 12px;
+    }
+    .cards-wrapper .card .description .others {
+        flex-direction: column;
+    }
+    .our-services .container .d-flex .item .description h4 {
+        font-size: 17px;
+    }
+    .cart-page .container .cart-items .image-holder {
+        width: 80px;
+        height: 85px;
+    }
+    .cart-page .container .cart-items .quantity {
+        height: 38px;
+    }
+    .cart-page .container .cart-items .quantity span {
+        padding: 8px !important;
+        font-size: 14px !important;
+    }
+    .cart-page .container .cart-items .remove-from-cart {
+        padding: 0;
+    }
+    .cart-page .container .cart-items .remove-from-cart .icon-holder {
+        width: 38px;
+        height: 38px;
+    }
+    .cart-page .container .cart-items .remove-from-cart span {
+        font-size: 14px !important;
+    }
+    .footer .container .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer .container .grid .links h4 {
+        font-size: 16px;
+    }
+    .footer .container .grid .links ul li {
+        font-size: 14px;
+    }
+    .my-modal {
+        max-width: 500px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .site-header .logo img {
+        width: 55px;
+    }
+    .site-header .logo a {
+        font-size: 17px;
+    }
+    .site-header .container .buttons .menu-icon {
+        width: 30px;
+    }
+    .banner .banner-image img {
+        height: 450px;
+    }
+    .dashboard .layout .menu {
+        max-width: 200px;
+    }    
+    .dashboard .layout .menu .head {
+        font-size: 15px;        
+    }
+    .dashboard .layout .menu .head .logo img {
+        width: 50px;
+    }
+    .dashboard .layout .menu .head .cross-icon img {
+        width: 17px !important;
+    }
+    .dashboard .layout .menu .navigation {
+        padding: 20px 0px 20px 20px;
+    }
+    .dashboard .layout .main .tab-panel .tab-pane .cards {
+        grid-template-columns: 1fr;
+    }
+    .cards-wrapper {
+        grid-template-columns: 1fr !important; 
+    }
+    .cards-wrapper .card .image-holder {
+        height: 200px;
+    }
+    .cards-wrapper .card .description {
+        padding: 15px 12px;
+    }
+    .cards-wrapper .card .description .others {
+        flex-direction: row;
+    }
+    .footer .container .grid {
+        grid-gap: 12px;
+    }
+    .my-modal {
+        max-width: 480px;
+    }
+    .my-modal .modal-body {
+        padding: 0 25px !important;
+    }
+    .my-modal .details .product-details .left .images .vertical {
+        height: 100% !important;
+        order: 2;
+    }
+    .my-modal .details .product-details .left .images {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .my-modal .details .product-details .left .images .vertical {
+        height: 300px;
+    }
+    .my-modal .details .product-details .left .images .thumbnail {
+        height: 300px;
+    }
+    .my-modal .details .product-details .left .images .vertical .image-holder {
+        width: 85px !important;
+        height: 80px !important;
+    }
+    .my-modal .details .product-details .right .description .d-flex {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .my-modal .details .product-details .right .description .input-wrapper input, textarea, .MuiFormControl-root {
+        max-width: 380px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container {
+        padding: 0 30px !important;
+    }
+    .site-header .container .buttons .menu-icon {
+        position: absolute;
+        right: 30px !important;
+    }
+    .my-modal .modal-body {
+        padding: 0 15px !important;
+    }
+    .my-modal .details .product-details .right .description .input-wrapper input, textarea, .MuiFormControl-root {
+        max-width: 360px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer .container .grid {
+        grid-template-columns: 1fr;
+    }
+}
