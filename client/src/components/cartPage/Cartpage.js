@@ -13,7 +13,7 @@ import SectionHeading2 from '../../global/customComponents/SectionHeading2';
 
 
 
-
+ 
 
 const CartPage = () => {
 
